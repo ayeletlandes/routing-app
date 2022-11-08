@@ -1,0 +1,5 @@
+<div class="login-wrapper">
+    <input class="email-input" [(ngModel)]="email">
+    <button class="submit-btn" type="submit" (click)="submitEmail()">Login</button>
+    <label class="login-status" *ngIf="status">{{status}}</label>
+</div>

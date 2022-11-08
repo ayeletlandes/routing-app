@@ -1,0 +1,24 @@
+.register-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-wrapper .email-input {
+  width: 33rem;
+  height: 5.3rem;
+  background-color: #242944;
+  color: #5f67d4;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 2rem;
+}
+
+.register-wrapper .submit-btn {
+  background-color: #6163db;
+  color: #ffffff;
+  height: 6.1rem;
+  width: 33rem;
+  border: none;
+  border-radius: 6px;
+}
